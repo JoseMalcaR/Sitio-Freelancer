@@ -1,0 +1,63 @@
+:root {
+    ---blanco: #ffffff;
+    ---oscuro: #212121;
+    ---primario: #FFC107;
+    ---secundario: #0097A7;
+    ---gris: #757575;
+
+
+    ---fuente-principal: 3.8rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px*/
+    font-family: "Krub", sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: var(---fuente-principal);
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg {
+    background-color: var(---secundario);
+}
+.navegacion-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navegacion-principal a {
+    color: var(---blanco);
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(---primario);
+    color: var(---oscuro);
+}
+
+@media (min-width: 480px) {
+    
+}
+
+@media (min-width: 768px) {
+    
+}
